@@ -11,6 +11,9 @@ ALLOWED_HOSTS = [
 
 PROJECT_APPS = [
 
+    'member',
+    'orm',
+
 ]
 
 REQUIRED_APPS = [
@@ -20,6 +23,7 @@ REQUIRED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'django_extensions',
 ]
 
 MIDDLEWARE = [
